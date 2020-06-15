@@ -1,0 +1,22 @@
+{
+  "name": "omt-demo",
+  "version": "0.0.1",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "rollup -c && cp index.html dist",
+    "serve": "http-server -c0"
+  },
+  "keywords": [],
+  "author": "Surma <surma@surma.link>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "comlink": "^4.0.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^8.0.1",
+    "@surma/rollup-plugin-off-main-thread": "^1.4.1",
+    "rollup": "^2.16.1",
+    "http-server": "^0.12.3"
+  }
+}
